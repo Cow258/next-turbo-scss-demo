@@ -1,0 +1,39 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "eslint --quiet --max-warnings 9999999 \"**/*.{js,jsx}\"",
+    "lint:fix": "eslint --quiet --max-warnings 9999999 \"**/*.{js,jsx}\" --fix",
+    "lint:scss": "stylelint --quiet \"**/*.(css|scss)\"",
+    "lint:scss:fix": "stylelint --quiet \"**/*.(css|scss)\"  --fix",
+    "format": "prettier --write \"**/*.d.ts\" --loglevel silent",
+    "types:not": "tsc --declaration --emitDeclarationOnly && pnpm format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "14.2.0-canary.16",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "sass": "^1.71.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.19",
+    "glob": "^8.1.0"
+  },
+  "peerDependencies": {
+    "@types/sortablejs": "1",
+    "next": "14.2.0-canary.16",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0"
+  }
+}

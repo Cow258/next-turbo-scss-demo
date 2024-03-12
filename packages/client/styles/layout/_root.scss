@@ -1,0 +1,63 @@
+:root,
+[data-bs-theme="light"] {
+  --bg-00: #{$bg-00-light};
+  --bg-01: #{$bg-01-light};
+  --bg-02: #{$bg-02-light};
+  --bg-03: #{$bg-03-light};
+  --bg-04: #{$bg-04-light};
+  --bg-06: #{$bg-06-light};
+  --bg-08: #{$bg-08-light};
+  --bg-12: #{$bg-12-light};
+  --bg-16: #{$bg-16-light};
+  --bg-24: #{$bg-24-light};
+  --blur-bg: #{$blur-bg-light};
+  --blur-bg-sm: #{$blur-bg-sm-light};
+  --txt-00: #{$txt-00-light};
+  --txt-01: #{$txt-01-light};
+  --txt-02: #{$txt-02-light};
+  --txt-03: #{$txt-03-light};
+  --txt-04: #{$txt-04-light};
+  --txt-05: #{$txt-05-light};
+  --txt-06: #{$txt-06-light};
+  --txt-07: #{$txt-07-light};
+  --txt-08: #{$txt-08-light};
+  --txt-09: #{$txt-09-light};
+  --txt-10: #{$txt-10-light};
+  --txt-11: #{$txt-11-light};
+  --txt-12: #{$txt-12-light};
+  --txt-13: #{$txt-13-light};
+  --primary-start: #{$primary-start};
+  --primary-end: #{$primary-end};
+  --secondary-start: #{$secondary-start};
+  --secondary-end: #{$secondary-end};
+  --gradient-degree: #{$gradient-degree};
+}
+
+@include color-mode(dark, true) {
+  --bg-00: #{$bg-00-dark};
+  --bg-01: #{$bg-01-dark};
+  --bg-02: #{$bg-02-dark};
+  --bg-03: #{$bg-03-dark};
+  --bg-04: #{$bg-04-dark};
+  --bg-06: #{$bg-06-dark};
+  --bg-08: #{$bg-08-dark};
+  --bg-12: #{$bg-12-dark};
+  --bg-16: #{$bg-16-dark};
+  --bg-24: #{$bg-24-dark};
+  --blur-bg: #{$blur-bg-dark};
+  --blur-bg-sm: #{$blur-bg-sm-dark};
+  --txt-00: #{$txt-00-dark};
+  --txt-01: #{$txt-01-dark};
+  --txt-02: #{$txt-02-dark};
+  --txt-03: #{$txt-03-dark};
+  --txt-04: #{$txt-04-dark};
+  --txt-05: #{$txt-05-dark};
+  --txt-06: #{$txt-06-dark};
+  --txt-07: #{$txt-07-dark};
+  --txt-08: #{$txt-08-dark};
+  --txt-09: #{$txt-09-dark};
+  --txt-10: #{$txt-10-dark};
+  --txt-11: #{$txt-11-dark};
+  --txt-12: #{$txt-12-dark};
+  --txt-13: #{$txt-13-dark};
+}

@@ -1,0 +1,45 @@
+{
+  "name": "next-turbo-scss-demo",
+  "private": true,
+  "scripts": {
+    "cli": "node ./cli",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "types": "pnpm cli types clean && turbo run types && pnpm cli types format",
+    "types:index": "pnpm cli types clean && pnpm cli types index",
+    "types:clean": "pnpm cli types clean",
+    "format": "prettier --write \"**/*.{js,jsx}\""
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^1.1.5",
+    "postcss": "^8.4.33",
+    "postcss-scss": "^4.0.9",
+    "prettier": "^3.2.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^31.0.0",
+    "stylelint-order": "^6.0.4",
+    "turbo": "latest"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "glob": "^8.1.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,213 @@
+$white: #fff !default;
+$gray-100: #fafafa !default;
+$gray-200: #ededed !default;
+$gray-300: #e3e3e3 !default;
+$gray-400: #d4d4d4 !default;
+$gray-500: #b5b5b5 !default;
+$gray-600: #757575 !default;
+$gray-700: #4f4f4f !default;
+$gray-800: #3b3b3b !default;
+$gray-900: #262626 !default;
+$black: #000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #efa609 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+
+$np-color: #ffffffa9;
+
+$primary: #aa906a;
+$primary-start: #ebc89d;
+$primary-end: #a9906a;
+$secondary-start: #3e475d;
+$secondary-end: #303036;
+$gradient-degree: 160deg;
+$link-color-dark: #aa906a;
+$link-hover-color-dark: #eee;
+
+$blur-bg-light: rgba(255, 255, 255, 0.7);
+$blur-bg-dark: rgba(20, 27, 36, 0.7);
+$blur-bg: var(--blur-bg);
+$blur-bg-sm-light: rgba(128, 128, 128, 0.5);
+$blur-bg-sm-dark: rgba(9, 12, 17, 0.5);
+$blur-bg-sm: var(--blur-bg-sm);
+$blur-value: 15px;
+
+// Background Color
+$bg-00-light: hsl(0deg, 0%, 100%);
+$bg-01-light: hsl(0deg, 0%, 88%);
+$bg-02-light: hsl(0deg, 0%, 100%);
+$bg-03-light: hsl(0deg, 0%, 100%);
+$bg-04-light: hsl(0deg, 0%, 100%);
+$bg-06-light: hsl(0deg, 0%, 100%);
+$bg-08-light: hsl(0deg, 0%, 100%);
+$bg-12-light: hsl(0deg, 0%, 100%);
+$bg-16-light: hsl(0deg, 0%, 100%);
+$bg-24-light: hsl(0deg, 0%, 100%);
+$bg-00-dark: #11171e;
+$bg-01-dark: #1d2329;
+$bg-02-dark: #22272e;
+$bg-03-dark: #242a30;
+$bg-04-dark: #262c32;
+$bg-06-dark: #2b3137;
+$bg-08-dark: #2e3339;
+$bg-12-dark: #32373e;
+$bg-16-dark: #353a40;
+$bg-24-dark: #373c42;
+$bg-00: var(--bg-00);
+$bg-01: var(--bg-01);
+$bg-02: var(--bg-02);
+$bg-03: var(--bg-03);
+$bg-04: var(--bg-04);
+$bg-06: var(--bg-06);
+$bg-08: var(--bg-08);
+$bg-12: var(--bg-12);
+$bg-16: var(--bg-16);
+$bg-24: var(--bg-24);
+
+// Text Color
+$txt-00-light: #222;
+$txt-01-light: #333;
+$txt-02-light: #444;
+$txt-03-light: #555;
+$txt-04-light: #666;
+$txt-05-light: #777;
+$txt-06-light: #888;
+$txt-07-light: #999;
+$txt-08-light: #aaa;
+$txt-09-light: #bbb;
+$txt-10-light: #ccc;
+$txt-11-light: #ddd;
+$txt-12-light: #eee;
+$txt-13-light: #fff;
+$txt-00-dark: #fff;
+$txt-01-dark: #eee;
+$txt-02-dark: #ddd;
+$txt-03-dark: #ccc;
+$txt-04-dark: #bbb;
+$txt-05-dark: #aaa;
+$txt-06-dark: #999;
+$txt-07-dark: #888;
+$txt-08-dark: #777;
+$txt-09-dark: #666;
+$txt-10-dark: #555;
+$txt-11-dark: #444;
+$txt-12-dark: #333;
+$txt-13-dark: #000;
+$txt-00: var(--txt-00);
+$txt-01: var(--txt-01);
+$txt-02: var(--txt-02);
+$txt-03: var(--txt-03);
+$txt-04: var(--txt-04);
+$txt-05: var(--txt-05);
+$txt-06: var(--txt-06);
+$txt-07: var(--txt-07);
+$txt-08: var(--txt-08);
+$txt-09: var(--txt-09);
+$txt-10: var(--txt-10);
+$txt-11: var(--txt-11);
+$txt-12: var(--txt-12);
+$txt-13: var(--txt-13);
+
+$body-color: $txt-00-light;
+$body-bg: $bg-00-light;
+$body-color-dark: $txt-00-dark;
+$body-bg-dark: $bg-00-dark;
+
+// $background-color: $bg-00;
+// $body-color: $txt-00;
+// $text-muted: $txt-06;
+$full-radius: 999px;
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+$font-family-sans-serif: #{var(--noto-sc)}, #{var(--noto-hk)}, "Noto Sans SC", "Noto Sans TC", "Helvetica", "Arial", "Droid Sans", "Roboto", "微软雅黑", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+
+$an-func: cubic-bezier(0.25, 1, 0.5, 1);
+
+$radial-gradient-0: radial-gradient(farthest-corner at top, rgba($white, 0.08), #fff0 50%);
+
+$enable-shadows: false;
+$enable-gradients: false;
+
+$prefix: "";
+
+$border-radius: 15px;
+$border-radius-sm: 10px;
+$border-radius-lg: 25px;
+$border-radius-xl: 40px;
+$border-radius-2xl: 60px;
+$border-radius-pill: 50rem;
+$border-color: rgba($black, 0.08);
+$border-color-dark: rgba($white, 0.1);
+$border-color-translucent: rgba($black, 0.08);
+$border-color-translucent-dark: rgba($white, 0.1);
+
+$btn-border-radius: $full-radius;
+$btn-border-radius-sm: $full-radius;
+$btn-border-radius-lg: $full-radius;
+
+$input-btn-font-size: 0.95rem;
+$input-bg: $gray-100;
+$input-bg-dark: $bg-08;
+$input-btn-padding-y: 0.6rem;
+$input-btn-padding-x: 1.3rem;
+$input-btn-padding-y-sm: 0.3rem;
+$input-btn-padding-x-sm: 1rem;
+$input-btn-padding-y-lg: 0.7rem;
+$input-btn-padding-x-lg: 1.7rem;
+
+$input-border-color: $gray-400;
+$input-border-color-dark: $bg-24;
+$input-border-radius: $full-radius;
+$input-border-radius-sm: $full-radius;
+$input-border-radius-lg: $full-radius;
+$input-placeholder-color: $txt-06;
+$input-plaintext-color: $txt-00;
+
+$input-group-addon-color: $txt-05;
+$input-group-addon-bg: $gray-200;
+$input-group-addon-bg-dark: $bg-06;
+$input-group-addon-border-color: $gray-400;
+$input-group-addon-border-color-dark: $bg-24;
+
+$input-btn-focus-box-shadow: 0;
+$input-box-shadow: 0;
+$input-focus-box-shadow: 0;
+$btn-box-shadow: 0;
+$btn-focus-box-shadow: 0;
+$btn-active-box-shadow: 0;
+
+$card-border-width: 0;
+$card-header-padding-y: 1.15rem;
+$card-header-padding-x: 1.25rem;
+$card-body-padding-y: 0.8rem;
+$card-body-padding-x: 1.25rem;
+$card-title-spacer-y: 0;
+$grid-gutter-width: 1rem;
+
+$dropdown-bg: $bg-16;
+$dropdown-link-hover-bg: $primary;
+$dropdown-link-hover-color: $white;
+$dropdown-border-radius: 10px;
+$dropdown-box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+$dropdown-item-padding-y: 0.5rem;
+$dropdown-item-padding-x: 1.5rem;
+$form-text-font-size: 0.8rem;
+$tooltip-border-radius: 5px;
+$tooltip-max-width: 360px;
+
+$popover-bg: var(--bg-04);
+$popover-border-radius: $border-radius;

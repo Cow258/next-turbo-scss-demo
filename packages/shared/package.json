@@ -1,0 +1,25 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "eslint --quiet --max-warnings 9999999 \"**/*.{js,jsx}\"",
+    "lint:fix": "eslint --quiet --max-warnings 9999999 \"**/*.{js,jsx}\" --fix",
+    "format": "prettier --write \"**/*.d.ts\" --loglevel silent",
+    "types": "tsc --declaration --emitDeclarationOnly && pnpm format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "14.2.0-canary.16",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "next": "14.2.0-canary.16",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

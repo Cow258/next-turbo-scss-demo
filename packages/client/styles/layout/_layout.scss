@@ -1,0 +1,40 @@
+.card {
+  transition: background-color .25s;
+
+  // box-shadow: 0 1px 15px rgba($black, 0.12);
+  background-color: $bg-03;
+
+  &.bordered {
+    box-shadow: none;
+    border: $border-width solid $card-border-color;
+  }
+
+  > * {
+    border-top: $border-width solid $card-border-color;
+    background-color: none;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  > .card-header, .card-footer {
+    padding: $card-header-padding-y $card-header-padding-x;
+
+    &.has-right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  > .card-body {
+    padding: $card-body-padding-y $card-body-padding-x;
+
+    &.has-right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
